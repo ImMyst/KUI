@@ -1,0 +1,12 @@
+{
+  "name": "tailwind-config-kui",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
