@@ -5,5 +5,9 @@ export interface ButtonProps {
 }
 
 export function Button(props: ButtonProps) {
-  return <button className="text-xl border-2 border-gray-400 px-4 py-2 rounded-lg">{props.children}</button>;
+  return (
+    <button className="rounded-lg border-2 border-gray-400 px-4 py-2 text-xl">
+      {props.children}
+    </button>
+  );
 }
